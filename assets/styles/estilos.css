@@ -1,0 +1,65 @@
+.banner{
+    background-image: url(/assets/img/antioquia2.jpg);
+    padding: 25%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+    color: white;
+}
+
+.banner::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.menucolor{
+    background-color: #097532;
+}
+
+.banner2{
+    background-image: url(/assets/img/antioquia3.jpg);
+    padding: 25%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+    color: white;
+}
+
+.banner2::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+.banner3{
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+    color: white;
+}
+
+.banner3::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
