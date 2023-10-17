@@ -63,3 +63,20 @@
     opacity: 0.5;
     z-index: -1;
 }
+
+/*.logo{
+    display: flex;
+    border-radius: 50%;
+}*/
+
+.imagen{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.barranav{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+}
